@@ -11,11 +11,16 @@ Before executing that script, update the following files :
 #### ~/.babylond/config/config.toml
 Edit the configuration file at ~/.babylond/config/config.toml and modify the seeds and persistent_peers attributes to contain appropriate seeds and peers of your choice. Set them as follow :
 ``
-# Comma separated list of seed nodes to connect to
+Comma separated list of seed nodes to connect to
 seeds = "8da45f9ff83b4f8dd45bbcb4f850999637fbfe3b@seed0.testnet.babylonchain.io:26656,4b1f8a774220ba1073a4e9f4881de218b8a49c99@seed1.testnet.babylonchain.io:26656"
 
-# Comma separated list of nodes to keep persistent connections to
+Comma separated list of nodes to keep persistent connections to
 persistent_peers = "https://rpc.testnet.babylonchain.io:443,https://node-api.testnet.babylonchain.io:443"
+``
+
+Run it as follows :
+``
+./babylon-node-2.sh
 ``
 
 #### ~/.babylond/config/app.toml
